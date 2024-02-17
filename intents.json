@@ -1,0 +1,150 @@
+
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going"],
+      "responses": ["Hello! It's great to hear from you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "cao", "see ya"],
+      "responses": ["Take care and have a great day!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["I'm sorry, I don't quite understand. Can you rephrase that?"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're very welcome!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how old are you?", "what is your age", "how old are you", "age?"],
+      "responses": ["I don't age, but my creators are always working to improve my capabilities."]
+    },
+    {
+      "tag": "options",
+      "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+      "responses": ["I'm here to help you take care of your health."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "what should I call you", "what's your name?", "who are you?", "can you tell me your name"],
+      "responses": ["You can call me CareBot! I'm your medical assistant."]
+    },
+    {
+      "tag": "common cold symptoms",
+      "patterns": ["Runny or stuffy nose", "Sore throat", "Cough", "Congestion", "Slight body aches or a mild headache", "Sneezing", "Low-grade fever", "Generally feeling unwell (malaise)"],
+      "responses": ["It sounds like you may have the common cold. Be sure to get plenty of rest and drink lots of fluids to help your body recover."]
+    },
+    {
+      "tag": "hypertensive disease",
+      "patterns": ["pain chest", "shortness of breath", "dizziness", "asthenia", "fall", "syncope", "vertigo", "sweat", "sweating increased", "palpitation", "nausea", "angina pectoris", "pressure chest"],
+      "responses": ["We're here to support you. It's possible that you may be experiencing hypertensive disease. Please seek medical attention as soon as possible."]
+    },
+    {
+      "tag": "fever symptoms",
+      "patterns": ["Sweating", "Chills and shivering", "Headache", "Muscle aches", "Loss of appetite", "Irritability", "Dehydration", "General weakness"],
+      "responses": ["It seems that you are suffering from fever. It is important to stay hydrated and rest as much as possible to help your body recover."]
+    },
+    {
+      "tag": "Diabetes symptoms",
+      "patterns": ["increased hunger", "increased thirst", "weight loss", "frequent urination", "blurry vision", "extreme fatigue"],
+      "responses": ["It seems that you are suffering from Diabetes. It is important to see a doctor for proper diagnosis and treatment to manage your condition."]
+    },
+    {
+      "tag": "migraine",
+      "patterns": ["I have a headache", "My head hurts", "What can I do for a migraine?", "How can I prevent migraines?"],
+      "responses": ["I'm sorry to hear that. Migraines can be tough. Try drinking water, taking a nap, or using a cold compress on your forehead to help ease the pain."]
+    },
+    {
+      "tag": "depression",
+      "patterns": ["I'm feeling sad", "I'm not enjoying things anymore", "How can I manage my depression?", "What are some treatments for depression?"],
+      "responses": ["I'm sorry to hear that. Depression is a medical condition. There are many treatment options available, including therapy and medication."]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["I'm having trouble breathing", "I have a cough", "How can I manage my asthma?", "What are some triggers for asthma?"],
+      "responses": ["I'm sorry to hear that. If you're experiencing difficulty breathing, seek medical attention right away."]
+    },
+    {
+      "tag": "common cold prevention",
+      "patterns": ["What medicines can I buy to help me with my common cold?", "tell me some prevention method from common cold", "What should I eat or drink if I am suffering from a common cold?", "How can I keep from getting a cold or the flu?"],
+      "responses": ["There are over-the-counter medicines for common cold symptoms. To prevent it, wash your hands, avoid touching your face, and maintain good hygiene."]
+    },
+    {
+      "tag": "fever prevention",
+      "patterns": ["What medicines can I buy to help me with my fever?", "tell me some prevention method from fever", "What should I eat or drink if I am suffering from fever?", "How can I keep from getting a fever?"],
+      "responses": ["If you have a fever, stay hydrated, rest, and consider over-the-counter medications. To prevent it, practice good hygiene and maintain a healthy lifestyle."]
+    },
+    {
+      "tag": "diabetes prevention",
+      "patterns": ["What medicines can I buy to help me with my diabetes?", "tell me some prevention method from diabetes", "What should I eat or drink if I am suffering from diabetes?", "How can I keep from getting diabetes?"],
+      "responses": ["For diabetes, medications like Insulin are available. Prevention involves a healthy lifestyle, including regular exercise and a balanced diet."]
+    },
+    {
+      "tag": "depression prevention",
+      "patterns": ["What medicines can I buy to help me with my depression?", "tell me some prevention method from depression", "What should I eat or drink if I am suffering from depression?", "How can I keep from getting depression?"],
+      "responses": ["Depression medications like brexpiprazole are available. Prevention includes regular exercise, building strong relationships, and minimizing daily choices."]
+    },
+    {
+      "tag": "asthma prevention",
+      "patterns": ["What medicines can I buy to help me with my asthma?", "tell me some prevention method from asthma", "What should I eat or drink if I am suffering from asthma?", "How can I keep from getting asthma?"],
+      "responses": ["For asthma, medications like epinephrine are available. Prevention involves identifying triggers and maintaining a healthy lifestyle."]
+    },
+    {
+      "tag": "symptom_checker",
+      "patterns": ["I'm not feeling well", "What could be wrong with me?", "What are my symptoms?", "Can you help diagnose me?", "What's causing my symptoms?"],
+      "responses": ["I can help you with that. Please tell me your symptoms, and I'll try to diagnose you. Remember, I'm not a substitute for professional medical advice."]
+    },
+    {
+      "tag": "symptoms_common_cold",
+      "patterns": ["I have a runny nose", "My throat is sore", "I'm coughing", "I have a headache", "I feel congested", "I have a fever", "I'm sneezing", "I feel tired", "I have body aches"],
+      "responses": ["It sounds like you may have a common cold. Rest and fluids can help. Consider over-the-counter medications for symptom relief."]
+    },
+    {
+      "tag": "symptoms_flu",
+      "patterns": ["I have a fever", "I'm coughing", "My throat is sore", "I have a runny or stuffy nose", "I feel tired", "I have body aches", "I'm vomiting", "I have diarrhea"],
+      "responses": ["It sounds like you may have the flu. Rest and fluids are important. If symptoms worsen, consult a doctor."]
+    },
+    {
+      "tag": "symptoms_allergies",
+      "patterns": ["My eyes are itchy", "My nose is stuffy", "I'm sneezing", "My throat is itchy", "I have a rash", "I'm coughing"],
+      "responses": ["It sounds like you may have allergies. Consider over-the-counter antihistamines. If symptoms persist, consult a doctor."]
+    },
+    {
+      "tag": "symptoms_migraine",
+      "patterns": ["I have a headache", "The pain is on one side of my head", "I'm sensitive to light", "I'm sensitive to sound", "I feel nauseous", "I have blurred vision"],
+      "responses": ["It sounds like you may have a migraine. Consider over-the-counter or prescription medications. If symptoms persist, consult a doctor."]
+    },
+    {
+      "tag": "symptoms_anxiety",
+      "patterns": ["I feel nervous", "I'm worried about things", "I'm irritable", "I have trouble sleeping", "I'm sweating", "I have a rapid heartbeat"],
+      "responses": ["It sounds like you may have anxiety. Try relaxation techniques, and if symptoms persist, consult a doctor."]
+    },
+    {
+      "tag": "medication_side_effects",
+      "patterns": ["I'm experiencing side effects from my medication", "My medication is making me feel sick", "I'm having an allergic reaction to my medication"],
+      "responses": ["Stop taking the medication and contact your doctor immediately for guidance."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["I need emergency help", "I'm having a medical emergency", "I need an ambulance", "I'm experiencing chest pain", "I can't breathe", "I'm bleeding heavily"],
+      "responses": ["Please call your local emergency services or go to the nearest hospital immediately."]
+    },
+    {
+      "tag": "emergency_number",
+      "patterns": ["What is the emergency number in Morocco?", "Emergency contact in Morocco", "Morocco emergency services number"],
+      "responses": ["In Morocco, the emergency services number is 190. Dial 190 for urgent medical assistance."]
+    },
+    {
+      "tag": "emergency_contacts",
+      "patterns": ["Emergency contacts in Morocco", "Helpline numbers in Morocco", "Who to call in case of emergency in Morocco?"],
+      "responses": ["In case of emergency in Morocco, contact:\n- Protection civile, ambulance, and pompiers: 150\n- Police (centralized for emergencies): 190\n- Gendarmerie royale: 177\n- Maroc assistance: 05 22 30 30 30\n- Mondial assistance: 05 22 31 31 50\n- Institut Pasteur: 05 22 26 20 62\n- SOS Médecins Maroc: 05 22 98 98 98\n- Centre Antipoison: 05 37 68 64 64 / 08 01 00 01 80\nNote: These numbers are for urgent assistance and medical emergencies."]
+    }
+  ]
+}
